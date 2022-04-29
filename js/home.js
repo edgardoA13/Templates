@@ -1,0 +1,13 @@
+	var data = JSON.parse(sessionStorage.getItem("sesion"));
+
+   	if(!data){
+   		window.location.href = '../index.html';
+   	} 
+
+   let btnCerrar = document.getElementById('logOut');
+   btnCerrar.onclick = cerrarSesion;//agrega funcion onclick al elemento
+
+   function cerrarSesion(e){
+   	sessionStorage.removeItem("sesion")
+   	window.location.href = '../index.html';
+   }

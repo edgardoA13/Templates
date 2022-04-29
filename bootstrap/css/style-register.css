@@ -1,0 +1,133 @@
+.allview{
+		height: 100vh;
+	}
+.titleFiber:hover{
+	text-decoration-line: none !important;
+	color: black !important;
+}
+#msg-exito{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	max-width: 400px;
+	height: 80px;
+	display: none;
+	background-color: #1ed12d;
+	opacity: 0.8;
+	border-radius: 40px;
+	align-items: center;
+}
+.mensaje{	
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+}
+#terminos{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	max-width: 400px;
+	height: 80px;
+	display: none;
+	background-color: red;
+	opacity: 0.8;
+	border-radius: 40px;
+	align-items: center;
+}
+.msj-terminos{	
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+}
+#msg-error, #msg-existe{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	max-width: 400px;
+	height: 80px;
+	display: none;
+	background-color: red;
+	opacity: 0.8;
+	border-radius: 40px;
+	align-items: center;
+}
+.mensaje-error, .mensaje-existe{	
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+}
+span{
+	color: red;
+	font-size: 12px;
+	display: none;
+}
+.spanText{
+	display: block;
+}
+.correcto{
+	border: 2px solid green !important;
+}
+.incorrecto{
+	border: 2px solid red !important;
+}
+.banner{
+	background-color: #4c14d3;
+}
+.img-fluid{
+	width: 70%;
+}
+.divForm{
+	padding: 0% 10%;
+}
+.parrafo{
+	padding: 0% 15%;
+}
+.btn-primary{
+	background-color: #4c14d3 !important;
+	border-color: #4c14d3 !important;
+}
+.link_login{
+	color: #4c14d3 !important;
+}
+.link_login:hover{
+	color: #4c14d3 !important;
+	text-decoration: underline;
+}
+.terminos{
+	color: #4c14d3 !important;
+	font-weight: bold;
+	text-decoration: underline 2px;
+}
+.input-group-text{
+	background-color: white !important;
+	border-left: none;
+	border-radius: 0px 5px 5px 0px;
+	cursor: pointer;
+}
+#contraseña{
+	border-right: none;
+}
+
+@media (max-width: 768px){
+	.banner{
+		display: none !important;
+	}
+}

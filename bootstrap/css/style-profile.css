@@ -1,0 +1,35 @@
+body{
+		font-size: 18px;
+	}
+	.contenido{
+		width: 60%;
+		margin: auto;
+	}
+	.img-avatar{
+		width: 150px;
+	}
+	.bg-lightpink{
+	   background-color: #fff7fe;
+    }    
+    
+    .nav-link{
+	color: black !important;
+}
+.btn-primary{
+	background-color: #4c14d3 !important;
+	border-color: #4c14d3 !important;
+	color: white !important;
+}
+.img-camara{
+	z-index: 1;
+}
+.containerdiv{
+	position: relative;
+}
+
+.img-camara{	
+	position: absolute;
+	right: 40%;
+	bottom: 15px;
+	z-index: 100;
+}

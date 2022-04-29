@@ -1,0 +1,43 @@
+body{
+	font-size: 18px;
+}
+.bg-lightpink{
+	background-color: #fff7fe;
+}
+header{	
+	background-color: #fff7fe;
+}
+header .container{
+	margin-top: 40px;
+}
+.btn-primary{
+	background-color: #4c14d3 !important;
+	border-color: #4c14d3 !important;
+}
+header a{
+	color: #4c14d3;
+	text-decoration: underline 2px;
+}
+.nav-link{
+	color: black !important;
+}
+.btn-reg{
+	color: white !important;
+}
+
+footer{
+	background-color: #fff7fe;
+}
+footer h5{
+	font-weight: bold;
+}
+footer ul{
+	padding: 0px;
+	margin: 0px;
+}
+footer li{
+	list-style: none;
+}
+footer a{
+	color: gray;
+}

@@ -1,0 +1,111 @@
+.allview{
+		height: 100vh;
+	}
+	.titleFiber:hover{
+	text-decoration-line: none !important;
+	color: black !important;
+}
+	.banner{
+		background-color: #4c14d3;
+	}
+	.img-fluid{
+		width: 70%;
+	}
+	.divForm{
+		padding: 0% 10%;
+	}
+	.parrafo{
+		padding: 0% 15%;
+	}
+	.btn-primary{
+		background-color: #4c14d3 !important;
+		border-color: #4c14d3 !important;
+	}
+	.color-text{
+		color: #4c14d3 !important;
+	}
+	.terminos{
+		color: #4c14d3 !important;
+		font-weight: bold;
+		text-decoration: underline 2px;
+	}
+	span{
+	color: red;
+	font-size: 12px;
+	display: none;
+}
+
+.correcto{
+	border: 2px solid green !important;
+}
+.incorrecto{
+	border: 2px solid red !important;
+}
+
+
+.spanText{
+	display: block;
+}
+
+#error-login{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	max-width: 400px;
+	height: 80px;
+	display: none;
+	background-color: red;
+	opacity: 0.8;
+	border-radius: 40px;
+	align-items: center;
+}
+.msj-login{	
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+}
+
+#login-vacio{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	max-width: 400px;
+	height: 80px;
+	display: none;
+	background-color: red;
+	opacity: 0.8;
+	border-radius: 40px;
+	align-items: center;
+}
+.msj-vacio{	
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+}
+.input-group-text{
+	background-color: white !important;
+	border-left: none;
+	border-radius: 0px 5px 5px 0px;
+	cursor: pointer;
+}
+#contraseñaL{
+	border-right: none;
+}
+
+	@media (max-width: 768px){
+		.banner{
+			display: none !important;
+		}
+	}

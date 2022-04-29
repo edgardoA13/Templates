@@ -1,0 +1,57 @@
+$principal: #0997b0;
+
+/***** NAVBAR *****/
+.bg-darkBlue{
+  background: #0a5f6e;
+}
+.nav-link{
+  color: white !important;
+}
+/**** NAVBAR *****/
+
+.text-primary{
+  color: $principal !important;
+}
+.bg-primary{
+  background: $principal !important;
+}
+.btn-primary{
+  background: $principal !important;
+}
+
+/****** IMAGENES *******/
+.developer{
+  width: 80%;
+}
+.photo{
+  width: 25%;
+  border: 10px solid #F39237;
+}
+.card:hover{
+  -webkit-box-shadow: 0 0 10px yellow;
+          box-shadow: 0 0 10px yellow;
+}
+.logo{
+  width: 100px !important;
+}
+/****** IMAGENES *******/
+
+/****** MEDIA QUERIES*******/
+@media(max-width:768px){
+	html{
+		font-size: 13px;
+	}
+  .display-4{
+    font-size: 35px !important;
+  }
+  p.h2{
+    font-size: 20px !important;
+  }
+  .photo{
+    width: 50%;   
+  }
+  h4{
+    font-size: 16px !important;
+  }
+}
+
